@@ -507,8 +507,8 @@ video {
   margin: 0.5rem;
 }
 
-.mt-48 {
-  margin-top: 12rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mt-2 {
@@ -541,6 +541,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .justify-center {
@@ -590,5 +594,15 @@ video {
 
 * {
   font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 640px) {
+  .sm\:mt-72 {
+    margin-top: 18rem;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
 }
 

@@ -2,8 +2,9 @@
   "name": "flag",
   "version": "1.0.0",
   "description": "A starter kit for building websites by KnowledgeHut for the JavaScript course",
+  "default": "index.html",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
   "browserslist": [
